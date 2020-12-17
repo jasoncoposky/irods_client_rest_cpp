@@ -102,7 +102,7 @@ The administration interface to the iRODS Catalog which allows the creation, rem
 
 **Example CURL Command:**
 ```
-curl -X POST -H "Authorization: ${TOKEN}" "http://localhost/irods-rest/1.0.0/admin?action=add&target=resource&arg2=ufs0&arg3=unixfilesystem&arg4=/tmp/irods/ufs0&arg5=&arg6=tempZone"
+curl -X POST -H "Authorization: ${TOKEN}" "http://localhost/irods-rest/1.0.0/admin?action=add&target=resource&arg2=ufs0&arg3=unixfilesystem&arg4=localhost:/tmp/irods/ufs0&arg5=&arg6=tempZone"
 ```
 
 **Returns**
